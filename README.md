@@ -1,4 +1,4 @@
-MySmartPantry — Android Studio source
+MySmartPantry — Android Studio sourc3
 
 This is the native Android implementation for the Mobile App Development 700 practical assignment. The app code is Java, its screens and row layouts are XML, and pantry/recipe data is stored locally in SQLite.
 
