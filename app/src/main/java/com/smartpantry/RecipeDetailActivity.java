@@ -43,7 +43,7 @@ public class RecipeDetailActivity extends AppCompatActivity {
         findViewById(R.id.nav_settings).setOnClickListener(v ->
                 startActivity(new Intent(this, SettingsActivity.class)));
 
-        LinearLayout ingredients = findViewById(R.id.detail_ingredients);
+       
         for (Requirement requirement : recipe.ingredients) {
             TextView line = makeLine(String.format(Locale.getDefault(), "•  %s %s %s",
                     format(requirement.quantity), requirement.unit, requirement.name), 15);
