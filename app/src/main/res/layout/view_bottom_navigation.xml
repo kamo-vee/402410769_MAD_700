@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/surface" android:orientation="vertical">
+    <View android:layout_width="match_parent" android:layout_height="1dp"
+        android:background="@color/border" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="0dp"
+        android:layout_weight="1" android:gravity="center" android:orientation="horizontal"
+        android:paddingStart="12dp" android:paddingEnd="12dp" android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+        <TextView android:id="@+id/nav_pantry" android:layout_width="0dp"
+            android:layout_height="match_parent" android:layout_weight="1" android:clickable="true"
+            android:focusable="true" android:background="@drawable/nav_tab_unselected"
+            android:gravity="center" android:drawableTop="@drawable/ic_pantry"
+            android:drawableTint="@color/muted" android:drawablePadding="3dp"
+            android:text="Pantry" android:textAllCaps="false" android:textColor="@color/muted"
+            android:textSize="10sp" />
+        <TextView android:id="@+id/nav_recipes" android:layout_width="0dp"
+            android:layout_height="match_parent" android:layout_weight="1" android:clickable="true"
+            android:focusable="true" android:background="@drawable/nav_tab_unselected"
+            android:gravity="center" android:drawableTop="@drawable/ic_recipes"
+            android:drawableTint="@color/muted" android:drawablePadding="3dp"
+            android:text="Recipes" android:textAllCaps="false" android:textColor="@color/muted"
+            android:textSize="10sp" />
+        <TextView android:id="@+id/nav_settings" android:layout_width="0dp"
+            android:layout_height="match_parent" android:layout_weight="1" android:clickable="true"
+            android:focusable="true" android:background="@drawable/nav_tab_unselected"
+            android:gravity="center" android:drawableTop="@drawable/ic_settings"
+            android:drawableTint="@color/muted" android:drawablePadding="3dp"
+            android:text="Settings" android:textAllCaps="false" android:textColor="@color/muted"
+            android:textSize="10sp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <color name="forest">#29483B</color>
+    <color name="forest_dark">#203B31</color>
+    <color name="cream">#F5F3EB</color>
+    <color name="surface">#FAF9F4</color>
+    <color name="ink">#263D32</color>
+    <color name="muted">#7B887E</color>
+    <color name="border">#E4E0D6</color>
+    <color name="amber">#E7C887</color>
+    <color name="sage">#E9ECDF</color>
+    <color name="sage_line">#D4DDCE</color>
+    <color name="peach">#EFDDD1</color>
+    <color name="blue_tint">#DBE6E7</color>
+    <color name="butter">#E8DBB7</color>
+    <color name="sage_tint">#D9E4D6</color>
+    <color name="sand_tint">#E6DECA</color>
+    <color name="terracotta">#C68C63</color>
+</resources>
