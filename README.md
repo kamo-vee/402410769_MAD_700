@@ -1,8 +1,8 @@
-# MySmartPantry — Android Studio source
+MySmartPantry — Android Studio source
 
 This is the native Android implementation for the Mobile App Development 700 practical assignment. The app code is Java, its screens and row layouts are XML, and pantry/recipe data is stored locally in SQLite.
 
-## Open and run
+Open and run
 
 1. Install Android Studio with Android SDK 35 (or allow Android Studio to install the required SDK).
 2. In Android Studio, choose **Open** and select the extracted `MySmartPantry` folder containing `settings.gradle`.
@@ -14,7 +14,7 @@ From a terminal, you can also build the debug APK with `./gradlew assembleDebug`
 
 The first launch seeds a starter pantry and 18 recipes. Pantry records are kept in the app's SQLite database after the app is closed. Delete ingredients from **Pantry** to test the no-match message and the strict recipe filter.
 
-## Included features
+Included features
 
 - Java Activities and XML layouts for Pantry, Add/Edit Ingredient, Suggested Recipes, Recipe Detail, and Settings.
 - Intent-based navigation and recipe ID passing to the detail screen.
@@ -24,11 +24,11 @@ The first launch seeds a starter pantry and 18 recipes. Pantry records are kept 
 - Strict recipe matching: all named ingredients must exist in sufficient quantities. It normalizes basic plurals and converts supported units within matching dimensions (mass, volume, or count). Different dimensions never match.
 - Settings preference for expiry reminders, saved with SharedPreferences.
 
-## Strict matching to explain in your demonstration
+ Strict matching to explain in your demonstration
 
 `PantryDatabase.getStrictSuggestions()` iterates every recipe and every required ingredient. It totals matching pantry quantities after canonicalizing ingredient names and converting compatible units. If any required amount is short, it rejects the recipe immediately. It returns a recipe only after every requirement passes. The suggestions screen only displays that returned list; it does not promote partial matches.
 
-## Submission work you must complete yourself
+ Submission work you must complete yourself
 
 - Create your public GitHub repository and make genuine, incremental commits while developing. Do not invent a commit history after the fact.
 - Add your real student details and repository URL to the report.
